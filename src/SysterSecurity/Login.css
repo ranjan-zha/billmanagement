@@ -1,0 +1,27 @@
+.login-container{
+    margin-top: 90px;
+    height: 400px;
+    width: 300px;
+    background-color: #9232086e;
+    border-radius: 5px;
+    padding: 80px;
+   
+}
+.logIn-heading{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.ggl-btn{
+    background-color: #FFF !important;
+    color: red !important;
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+}
+.fb-btn{
+    background-color: #42a2fc !important;
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+}
