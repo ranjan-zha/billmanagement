@@ -1,5 +1,6 @@
 {
   "name": "quloi",
+  "homepage": "http://ranjan-zha.github.io/billmanagement",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.3",
     "material-table": "^1.69.3",
     "material-ui": "^0.20.2",
     "react": "^17.0.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
