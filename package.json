@@ -1,6 +1,5 @@
 {
   "name": "quloi",
-  "homepage": "http://ranjan-zha.github.io/billmanagement",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
